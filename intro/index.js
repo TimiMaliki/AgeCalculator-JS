@@ -6,3 +6,7 @@ function myWorld(sayHello){
     return code
 }
  console.log(myWorld())
+
+ //The alert function
+
+ alert("Hello World")
