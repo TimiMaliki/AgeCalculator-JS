@@ -39,6 +39,14 @@ m tall.
 GOOD LUCk
  */
 
+// Mark data
+let markHeight = 1.69;
+let markMass = 78;
+
+// John
+
+let johnHeight = 1.95;
+let johnMass = 92;
 
 
 /**
