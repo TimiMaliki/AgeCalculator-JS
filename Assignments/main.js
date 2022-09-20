@@ -48,6 +48,16 @@ let markMass = 78;
 let johnHeight = 1.95;
 let johnMass = 92;
 
+//MarkBMI
+
+markBMI = markMass / (markHeight * markHeight);
+console.log(markBMI);
+
+//JohnBMI
+
+johnBMI = markMass / (johnHeight * johnHeight);
+console.log(johnBMI);
+
 
 /**
  * second assignment is to assign value to a variable
