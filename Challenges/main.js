@@ -313,9 +313,10 @@ const mark = {
 
       calcAgeMarkBmi : function (){
         this.bmi = this.mass / (this.height * this.height);
-        return this.bmi;
+        return this.bmi
       },
 }
+
 const john = {
   firstName : "JOHN",
   lastName : "SMITH",
@@ -328,20 +329,26 @@ const john = {
     return this.bmi;
   },
 }
-calcAgeMarkBmi();
-calcAgeJohnBmi()
+
+//mark.calcAgeMarkBmi();
+//john.calcAgeJohnBmi();
+
+//console.log(mark.bmi,john.bmi);
+console.log(mark.calcAgeMarkBmi(),john.calcAgeJohnBmi())
 
 
 
 
-if(this.calcAgeJohnBmi > this.calcAgeMarkBmi){
- return "John is the winner"
-}else if(this.calcAgeMarkBmi < this.calcAgeJohnBmi){
-return "Mark is the winner"
-}else{
-return "No one won"
+
+ if(mark.bmi > john.bmi){
+   console.log(`so let's check the winner, ${mark.firstName} value which is ${mark.bmi} is higher than
+   ${john.firstName} value which is ${john.bmi} `)
+ }else if(john.bmi > mark.bmi){
+  console.log(`${john.firstName} value is ${john.bmi} and his the winner`)
+ }else{
+   console.log('No one won!');
 }
-console.log(markBmi());
+
 
 
 
