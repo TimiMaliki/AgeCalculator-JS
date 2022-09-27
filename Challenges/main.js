@@ -340,7 +340,7 @@ console.log(mark.calcAgeMarkBmi(),john.calcAgeJohnBmi())
 
 
 
- if(mark.bmi > john.bmi){
+ if(mark.bmi > john.bmi) {
    console.log(`so let's check the winner, ${mark.firstName} value which is ${mark.bmi} is higher than
    ${john.firstName} value which is ${john.bmi} `)
  }else if(john.bmi > mark.bmi){
@@ -348,6 +348,7 @@ console.log(mark.calcAgeMarkBmi(),john.calcAgeJohnBmi())
  }else{
    console.log('No one won!');
 }
+
 
 //github token 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
 
