@@ -18,5 +18,7 @@ document.querySelector('.num__box').textContent = number;
 
    if(!guess){
      document.querySelector('.message').textContent = "No Number!"
+   }else if( guess === number){
+    document.querySelector('.message').textContent = "correct Number!"
    }
  });
