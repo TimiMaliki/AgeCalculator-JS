@@ -9,7 +9,9 @@
 //  document.querySelector('.High__score').textContent = "Highscore:" + 13;
  document.querySelector('.score').textContent = "score:" + 11;
 
-const number = Math.trunc()
+const number = Math.trunc(Math.random()*20)+1;
+
+document.querySelector('.num__box').textContent = number;
 
   document.querySelector('.check__box').addEventListener('click', function(){
     const guess = Number(document.querySelector('.guess').value );
